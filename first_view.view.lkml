@@ -9,11 +9,11 @@ view: first_view {
   #   sql: ${TABLE}.user_id ;;
   # }
   #
-  # dimension: lifetime_orders {
-  #   description: "The total number of orders for each user"
-  #   type: number
-  #   sql: ${TABLE}.lifetime_orders ;;
-  # }
+   dimension: lifetime_orders {
+     description: "The total number of orders for each user"
+     type: string
+     sql: "test" ;;
+   }
   #
   # dimension_group: most_recent_purchase {
   #   description: "The date when each user last ordered"
